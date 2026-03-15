@@ -39,10 +39,6 @@ menu:
       weight: 10
       params:
         type: search
-    - identifier: ai_nav
-      name: AI导航
-      url: https://nav.hubtoday.app/
-      weight: 0
     - identifier: documentation
       name: AI资讯日报
       pageRef: /
@@ -51,17 +47,21 @@ menu:
       name: AI周报
       pageRef: /blog/weekly
       weight: 2
+    - identifier: ai_nav
+      name: AI导航
+      url: https://nav.hubtoday.app/
+      weight: 3
     - identifier: blog
       name: 博客
       pageRef: /blog
-      weight: 3
+      weight: 4
     - identifier: about      
       name: 关于我 ↗
       url: "https://github.com/justlovemaki"
-      weight: 4
+      weight: 5
     - identifier: github   
       name: 同性交友
-      weight: 5
+      weight: 6
       url: "https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily"
       params:
         icon: github
